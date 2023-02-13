@@ -1,0 +1,25 @@
+Blog api
+
+register user - model( email, name, password)
+1. email, password, validation
+2. hash user password
+3. generate token 
+4. send response with the token 
+
+login user
+1. email and password validation
+2. find user
+3. compare password( if correct -> generate token)
+generating proper jwt tokenallkeysgenerator.com
+
+
+Authentication middleware
+authorizatiion; bearer token
+1.get token tfrom req.headers
+2. verify token
+
+Error handling
+
+CRUD operation for  journal
+1. schema connection
+2.crud
