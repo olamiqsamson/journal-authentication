@@ -8,10 +8,16 @@ mongoose.set('strictQuery', true)
 const authRouter = require('./routes/authRouter')
 const journalRouter = require('./routes/journalRouter')
 const auth = require('./midedleware/authentication')
+const cors = require("cors")
 
 
 //middleware
+app.use(cors())
 app.use(express.json())
+
+
+//security packages
+//public
 
 //routes
 app.use('/api/v1', authRouter)

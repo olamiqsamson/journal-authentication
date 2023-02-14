@@ -23,3 +23,9 @@ Error handling
 CRUD operation for  journal
 1. schema connection
 2.crud
+
+
+added things
+//allow update to user information handling erors for job Schema
+
+handling errors for job schema
